@@ -15,14 +15,14 @@ a {
 }
 
 header {
-  background-color: royalblue;
+  background-color: #f6f5f0;
+  border-bottom: 1px solid #c8c8c8;
 }
 
 header .inner {
   width: 1100px;
   height: 120px;
   margin: 0 auto;
-  background-color: aliceblue;
   position: relative;
 }
 
@@ -37,7 +37,10 @@ header .logo {
 } 
 
 header .sub-menu {
-
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 0px;
 }
 
 header .sub-menu ul.menu {
@@ -77,13 +80,40 @@ header .sub-menu ul.menu li a:hover {
 }
 
 header .sub-menu .search {
-  
+  height: 34px;
+  position: relative;
 }
 
 header .sub-menu .search input {
-  
+  width: 36px;
+  height: 34px;
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  color: #777;
+  font-size: 12px;
+  transition: width 0.4s;
+}
+
+header .sub-menu .search input:focus {
+  width: 190px;
+  border-color: #669900;
+  transition: 0.5s;
 }
 
 header .sub-menu .search .material-icons {
-  
+  height: 24px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  margin: auto;
+  transition: 0.4s;
+}
+
+header .sub-menu .search.focused .material-icons {
+  opacity: 0;
 }
