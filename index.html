@@ -29,6 +29,10 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js" integrity="sha512-gsEItzcNkWxfxHjr4BaEZAd9YuRWYjxnj7c/yukcZ0/nWehUb5TjJNyyv1ApCU2DFH/qgw+stFZHPOKnoQnIuQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+
   <script defer src="./js/main.js"></script>
 </head>
 <body>
@@ -392,5 +396,61 @@
         
       </div>
    </section>
+
+
+   <section class="notice">
+      <div class="notice-line">
+        <div class="bg-left"></div>
+        <div class="bg-right"></div>
+        <div class="inner">
+          <div class="inner__left">
+            <h2>공지사항</h2>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)">크리스마스 & 연말연시 스타벅스 매장 영업시간</a> 
+                </div>
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)">[당첨자 발표] 2021 스타벅스 플래너 영수증 이벤트</a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)">스타벅스 커피 코리아 애플리케이션 버전 업데이트</a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)">[당첨자 발표] 뉴이어 전자영수증 이벤트</a>
+                </div>
+              </div>
+            </div>
+            <a href="javascript:void(0)" class="notice-line__more">
+              <div class="material-icons">add_circle</div>
+            </a>
+          </div>
+          <div class="inner__right">
+            <h2>스타벅스 프로모션</h2>
+            <div class="toggle-promotion">
+              <div class="material-icons">upload</div>
+            </div>
+          </div>
+        </div>
+      </div>
+   </section>
+
+   <div class="swiper">
+    <div class="swiper-wrapper">
+       <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+      <div class="swiper-slide">Slide 10</div>
+    </div>
+    <div class="swiper-pagination"></div>
+   </div>
+
+   
 </body>
 </html>

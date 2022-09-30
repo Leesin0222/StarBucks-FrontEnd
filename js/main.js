@@ -47,3 +47,10 @@ fadeEls.forEach(function (fadeEl, index) {
     opacity: 1
   });
 });
+
+
+new Swiper('.notice-line .swiper-container', {
+  direction: 'vertical',
+  autoplay: true,
+  loop: true
+});
