@@ -2,7 +2,7 @@
 ### 실행 화면
 <br>
 <br>
-![image](https://user-images.githubusercontent.com/90879448/193401134-43f2b587-28c1-4af2-b6ee-fcb4da373c4c.png)
+[image](https://user-images.githubusercontent.com/90879448/193401134-43f2b587-28c1-4af2-b6ee-fcb4da373c4c.png)
 <br>
 ![image](https://user-images.githubusercontent.com/90879448/193401145-4b749871-94c5-4314-b5a1-daa12d371f49.png)
 <br>
